@@ -161,7 +161,17 @@ img {
     grid-template-columns: 2fr 1fr;
     justify-content: center;
     align-items: center;
-   
+   margin-top: 30px;
+}
+
+#tab-2-content .tab-2-content-bottom {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+   grid-gap: 2rem;
+   text-align: center;
 }
 
 /* Container */
@@ -179,7 +189,13 @@ img {
 }
 
 .text-lg {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.text-md {
+    font-size: 1rem;
     margin-bottom: 1rem;
     color: #fff;
 }
@@ -220,7 +236,8 @@ img {
 }
 
 .btn-lg {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
+    text-align: center;
 }
