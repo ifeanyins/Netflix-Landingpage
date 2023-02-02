@@ -1,5 +1,6 @@
 :root {
     --primary-color:#e50914;
+    --dark-color:#141414;
 }
 
 * {
@@ -54,11 +55,13 @@ img {
     height: 100%;
     z-index: 1;
     background: rgba(0, 0, 0, 0.4);
+    box-shadow: inset 120px 100px 250px #000 ;
 }
 
 .showcase-top {
     position: relative;
     height: 90px;
+    z-index: 2;
 }
 
 .showcase-content{
@@ -69,7 +72,8 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 4rem;
+    z-index: 2;
 }
 
 .showcase-content h1{
@@ -82,9 +86,9 @@ img {
 .showcase-content p {
     text-transform: uppercase;
     color: #fff;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 1rem;
-    line-height: 1.25;
+    line-height: 1rem;
     margin: 0 0 2rem;
 }
 
@@ -103,13 +107,98 @@ img {
     transform: translate(-50%, -50%);
 }
 
+/* Tabs */
+.tabs {
+    background: var(--dark-color);
+    padding-top: 1rem;
+    border-bottom: 3px solid #3d3d3d;
+}
+
+.tabs .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:1rem ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tabs p {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+.tabs .container > div {
+    padding: 1rem 0;
+}
+
+.tabs .container > div:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.tab-border {
+    border-bottom: var(--primary-color) 4px solid;
+}
+
+/* Tab Content */
+.tab-content {
+  background: #000;
+  color: #000;
+}
+
+#tab-1-content .tab-1-content-inner {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0 2rem;
+}
+
+#tab-2-content .tab-2-content-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/* Container */
+.container {
+    max-width: 70%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+/* Text Styles */
+.text-xl {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-lg {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.text-dark {
+    color: #999;
+}
+
 /* Button */
 .btn {
     display: inline-block;
     background: var(--primary-color);
     color: #fff;
-    padding: 0.4rem 1.3rem;
-    font-size: 1rem;
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
     border: none;
     cursor: pointer;
     margin-right: 0.5rem;
@@ -126,7 +215,7 @@ img {
 
 .btn-xl {
     font-size: 1.2rem;
-    padding: 1.1rem 1.2rem;
+    padding: 1rem 1.4rem;
     text-transform: uppercase;
 }
 
