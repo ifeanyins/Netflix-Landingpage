@@ -147,6 +147,17 @@ img {
   color: #000;
 }
 
+/* Hide content initally */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
 #tab-1-content .tab-1-content-inner {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -294,6 +305,10 @@ grid-gap: 2rem;
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
     text-align: center;
+}
+
+.btn-icon {
+    margin-left: 0.5rem;
 }
 
 @media(max-width:960px){
