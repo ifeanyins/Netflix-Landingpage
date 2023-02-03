@@ -124,7 +124,7 @@ img {
 }
 
 .tabs p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding-top: 0.5rem;
 }
 
@@ -138,7 +138,7 @@ img {
 }
 
 .tab-border {
-    border-bottom: var(--primary-color) 4px solid;
+    border-bottom: var(--primary-color) 3px solid;
 }
 
 /* Tab Content */
