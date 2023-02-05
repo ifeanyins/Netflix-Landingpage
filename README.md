@@ -3,8 +3,6 @@
 This is the core code from scratch to clone the landing page of Netflix using **HTML, CSS and JavaScript.**
 
 ## 📸 Screenshots
-![image]C:\Users\HP\Desktop\GitHub\Netflix-Landingpage\images\Screenshot (12).png)
-![image](https://C:\Users\HP\Desktop\GitHub\Netflix-Landingpage\images\Screenshot (13).png)
 ![image](https://user-images.githubusercontent.com/79099734/156505619-e344eb2f-9298-4f76-8d59-d0f6a4f108dc.png)
 ![image](https://user-images.githubusercontent.com/79099734/156505658-675daf0b-fe7d-4490-8d1c-ab030527ecf5.png)
 ![image](https://user-images.githubusercontent.com/79099734/156505698-04ab760c-9ef1-4da2-b921-4c3e65ef0789.png)
@@ -12,10 +10,9 @@ This is the core code from scratch to clone the landing page of Netflix using **
 ![image](https://user-images.githubusercontent.com/79099734/156505809-309a6824-5d85-4cc0-9ffd-95d66fb2cf5e.png)
 
 
-## Watch the Live [Demo](https://susmita-dey.github.io/Netflix-Clone/)
+## Watch the Live [Demo](https://ifeanyins.github.io/Netflix-Landingpage/)
 
 
-## [Watch the video tutorial here](https://youtu.be/wpH0VR0hYTU)
 
 
 # 💥 How to Contribute
