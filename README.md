@@ -3,11 +3,11 @@
 This is the core code from scratch to clone the landing page of Netflix using **HTML, CSS and JavaScript.**
 
 ## 📸 Screenshots
-![image](https://user-images.githubusercontent.com/79099734/156505619-e344eb2f-9298-4f76-8d59-d0f6a4f108dc.png)
-![image](https://user-images.githubusercontent.com/79099734/156505658-675daf0b-fe7d-4490-8d1c-ab030527ecf5.png)
-![image](https://user-images.githubusercontent.com/79099734/156505698-04ab760c-9ef1-4da2-b921-4c3e65ef0789.png)
-![image](https://user-images.githubusercontent.com/79099734/156505771-6929b1f2-1aed-4da4-bb7a-092404589241.png)
-![image](https://user-images.githubusercontent.com/79099734/156505809-309a6824-5d85-4cc0-9ffd-95d66fb2cf5e.png)
+
+![Screenshot (12)](https://user-images.githubusercontent.com/110744261/219857168-88047965-04d4-4c79-91cf-574e21f6415a.png)
+![Screenshot (13)](https://user-images.githubusercontent.com/110744261/219857171-6444113d-f761-4d4f-bc0e-34198195ce5a.png)
+![Screenshot (14)](https://user-images.githubusercontent.com/110744261/219857172-e3a36624-eda9-41c4-ba07-16fe30cdc797.png)
+![Screenshot (15)](https://user-images.githubusercontent.com/110744261/219857174-d2588020-ff1c-4361-8546-f9da5a266739.png)
 
 
 ## Watch the Live [Demo](https://ifeanyins.github.io/Netflix-Landingpage/)
